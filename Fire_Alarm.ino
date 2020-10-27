@@ -1,13 +1,13 @@
 #include<Servo.h>
 
-int servoPin = 6;
+int servoval = 6;
 
 Servo servo;
 
 void setup()
 {
   Serial.begin(9600);
-  servo.attach(servoPin);
+  servo.attach(servoval);
   
   pinMode(6, OUTPUT);
   pinMode(5, OUTPUT);
